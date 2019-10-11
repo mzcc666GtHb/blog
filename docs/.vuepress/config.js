@@ -2,14 +2,14 @@ console.log(__dirname, 'dirname');
 module.exports = {
 	title: '网络日志',
 	keywords: '网络日志',
-    description: '网络日志',
-    head: [
-        ['link', { rel: 'icon', href: '/favicon.ico' }],
-        ['link', { rel: 'mainfest', href: '/mainfest.json' }],
-    ],
-    port: 4000,
-    markdown: {
-      lineNumbers: false,
+	description: '',
+	head: [
+		['link', {rel: 'icon', href: '/favicon.ico'}],
+		['link', {rel: 'mainfest', href: '/mainfest.json'}],
+	],
+	port: 4000,
+	markdown: {
+		lineNumbers: false,
 	},
 	plugins: [
 		'@vuepress/back-to-top',
@@ -31,12 +31,12 @@ module.exports = {
 			// }
 		],
 	],
-    serviceWorker: true, // 是否开启 PWA
-    themeConfig: {
-        nav: [
-			{ text: '主页', link: '/' },
-			{ text: '目录', link: '/posts/' },
-            {
+	serviceWorker: true, // 是否开启 PWA
+	themeConfig: {
+		nav: [
+			{text: '主页', link: '/'},
+			{text: '目录', link: '/posts/'},
+			{
 				text: '关于',
 				link: '/about/'
 			},
@@ -65,7 +65,7 @@ module.exports = {
 					}
 				],
 			}
-        ],
+		],
 		sidebar: [
 			{
 				title: '目录',
@@ -77,9 +77,9 @@ module.exports = {
 				collapsable: true, // 可选的, 默认值是 true,
 				sidebarDepth: 2,    // 可选的, 默认值是 1
 				children: [
-				'/lodash/',
-				'/underscore/',
-				'/jQuery/',
+					'/lodash/',
+					'/underscore/',
+					'/jQuery/',
 				]
 			},
 			{
@@ -88,11 +88,11 @@ module.exports = {
 				collapsable: true, // 可选的, 默认值是 true,
 				sidebarDepth: 2,    // 可选的, 默认值是 1
 				children: [
-				'/js-extend/',
-				'/js-this/',
-				'/js-implement-call-apply/',
-				'/js-implement-bind/',
-				'/js-implement-new/',
+					'/js-extend/',
+					'/js-this/',
+					'/js-implement-call-apply/',
+					'/js-implement-bind/',
+					'/js-implement-new/',
 				]
 			},
 			{
@@ -101,20 +101,23 @@ module.exports = {
 				collapsable: true, // 可选的, 默认值是 true,
 				sidebarDepth: 2,    // 可选的, 默认值是 1
 				children: [
-				'/puppeteer-create-pdf-and-merge/',
-				'/vue-cli-2-webpack/',
-				'/oh-my-zsh/',
-				'/20180421-youzan-front-end-tech-open-day/',
-				'/vue-2-qrcode/',
-				'/js-object-api/',
-				'/js-book/',
+					'/puppeteer-create-pdf-and-merge/',
+					'/vue-cli-2-webpack/',
+					'/oh-my-zsh/',
+					'/20180421-youzan-front-end-tech-open-day/',
+					'/vue-2-qrcode/',
+					'/js-object-api/',
+					'/js-book/',
 				]
 			},
 			{
-				title: '杂文系列',   // 必要的
+				title: '工具系列',   // 必要的
 				// path: '/about/',      // 可选的, 应该是一个绝对路径
 				collapsable: false, // 可选的, 默认值是 true,
 				sidebarDepth: 2,    // 可选的, 默认值是 1
+				children: [
+					'/webpack/'
+				]
 			},
 			{
 				title: '关于',   // 必要的
@@ -122,18 +125,18 @@ module.exports = {
 				collapsable: true, // 可选的, 默认值是 true,
 				sidebarDepth: 2,    // 可选的, 默认值是 1
 				children: [
-				'/about/'
+					'/about/'
 				]
 			},
 		],
-        // sidebarDepth: 3,
-        lastUpdated: '最后更新时间',
-    },
-    configureWebpack: {
-      resolve: {
-        alias: {
-          '@images': '../images/',
-        }
-      }
-    }
+		// sidebarDepth: 3,
+		lastUpdated: '最后更新时间',
+	},
+	configureWebpack: {
+		resolve: {
+			alias: {
+				'@images': '../images/',
+			}
+		}
+	}
 }

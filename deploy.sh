@@ -10,19 +10,15 @@ npm run build
 cd docs/.vuepress/dist
 
 # 如果是发布到自定义域名
-echo 'www.lxchuan12.cn' > CNAME
+# echo 'www.lxchuan12.cn' > CNAME
 
 git init
-git config user.name 'luoxiaochuan'
-git config user.email 'lxchuan12@163.com'
 git add -A
 git commit -m '更新为 vuepress 博客'
 
-# 如果发布到 https://lxchuan12.github.io
-# git push -f git@github.com:lxchuan12/lxchuan12.github.io.git master
-git push -f https://github.com/lxchuan12/lxchuan12.github.io.git master
+# 如果发布到 https://mzcc666GtHb.github.io
+# git push -f https://github.com/mzcc666GtHb/mzcc666GtHb.github.io.git master
+git push -f https://github.com/mzcc666GtHb/mzcc666GtHb.github.io.git master
 
-# 如果发布到 https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
 cd -
