@@ -1071,18 +1071,3 @@ env 包含当前所有 ECMAScript 标准里的最新特性。<br>
 1、分析这些，逐行注释，还是需要一些时间的。其中有些不是很明白的地方，及时查阅相应的官方文档和插件文档（建议看英文文档和最新的文档），不过文档没写明白的地方，可以多搜索一些别人的博客文章，相对比较清晰明了。<br>
 2、前端发展太快，这个`Vue-cli@2.9.3` `webpack`版本还是`v3.x`，webpack现在官方版本已经是`v4.12.0`，相信不久后，`Vue-cli`也将发布支持`webpack v4.x`的版本，`v3.0.0`已经是`beta.16`了。<br>
 3、后续有余力，可能会继续分析新版的`vue-cli`构建的`webpack`项目工程。
-
-## 关于
-
-作者：常以**若川**为名混迹于江湖。前端路上 | PPT爱好者 | 所知甚少，唯善学。<br>
-[个人博客](https://lxchuan12.github.io/)<br>
-[掘金专栏](https://juejin.im/user/57974dc55bbb500063f522fd/posts)，欢迎关注~<br>
-[`segmentfault`前端视野专栏](https://segmentfault.com/blog/lxchuan12)，开通了**前端视野**专栏，欢迎关注~<br>
-[知乎前端视野专栏](https://zhuanlan.zhihu.com/lxchuan12)，开通了**前端视野**专栏，欢迎关注~<br>
-[github blog](https://github.com/lxchuan12/blog)，相关源码和资源都放在这里，求个`star`^_^~
-
-## 微信公众号  若川视野
-
-可能比较有趣的微信公众号，长按扫码关注。也可以加微信 `lxchuan12`，注明来源，拉您进【前端视野交流群】。
-
-![若川视野](../about/wechat-official-accounts-mini.jpg)

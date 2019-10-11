@@ -2,7 +2,7 @@ console.log(__dirname, 'dirname');
 module.exports = {
 	title: '网络日志',
 	keywords: '网络日志',
-	description: '',
+	description: '欢迎来到这里',
 	head: [
 		['link', {rel: 'icon', href: '/favicon.ico'}],
 		['link', {rel: 'mainfest', href: '/mainfest.json'}],

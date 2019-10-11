@@ -194,17 +194,3 @@ git config --global alias.st status
 
 文章首发于segmentfault [oh my zsh 和 windows git bash 设置别名提高效率](https://segmentfault.com/a/1190000015155864)
 
-## 关于
-
-作者：常以**若川**为名混迹于江湖。前端路上 | PPT爱好者 | 所知甚少，唯善学。<br>
-[个人博客](https://lxchuan12.github.io/)<br>
-[掘金专栏](https://juejin.im/user/57974dc55bbb500063f522fd/posts)，欢迎关注~<br>
-[`segmentfault`前端视野专栏](https://segmentfault.com/blog/lxchuan12)，开通了**前端视野**专栏，欢迎关注~<br>
-[知乎前端视野专栏](https://zhuanlan.zhihu.com/lxchuan12)，开通了**前端视野**专栏，欢迎关注~<br>
-[github blog](https://github.com/lxchuan12/blog)，相关源码和资源都放在这里，求个`star`^_^~
-
-## 微信公众号  若川视野
-
-可能比较有趣的微信公众号，长按扫码关注。也可以加微信 `lxchuan12`，注明来源，拉您进【前端视野交流群】。
-
-![若川视野](../about/wechat-official-accounts-mini.jpg)

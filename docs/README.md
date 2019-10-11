@@ -6,11 +6,11 @@ heroImage: /timg.jpg
 actionText: 目录 →
 actionLink: /posts/
 features:
-- title: 中文文档
+- title: HTML
   details: HTML | CSS | Javascript
-- title: 中文文档
+- title: CSS
   details: HTML | CSS | Javascript
-- title: 中文文档
+- title: JAVASCRIPT
   details: HTML | CSS | Javascript
 footer: Copyright © 2019-present HTML | CSS | Javascript
 ---
