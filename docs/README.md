@@ -1,7 +1,7 @@
 ---
 home: true
 lang: zh-CN
-heroText: 
+heroText: 爪哇犀牛
 heroImage: /timg.jpg
 actionText: 目录 →
 actionLink: /posts/
