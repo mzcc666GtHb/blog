@@ -1,10 +1,10 @@
 {
-    "name": "若川",
-    "short_name": "若川",
+    "name": "许伟锋",
+    "short_name": "许伟锋",
     "start_url": "index.html",
     "display": "standalone",
     "background_color": "#2196f3",
-    "description": "若川的个人主页",
+    "description": "许伟锋的个人主页",
     "theme_color": "blue",
     "icons": [
       {
