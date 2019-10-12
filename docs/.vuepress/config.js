@@ -1,7 +1,7 @@
 console.log(__dirname, 'dirname');
 module.exports = {
-	title: '网络日志',
-	keywords: '网络日志',
+	title: 'web日志',
+	keywords: 'web日志',
 	description: '欢迎来到这里',
 	head: [
 		['link', {rel: 'icon', href: '/favicon.ico'}],
@@ -35,7 +35,6 @@ module.exports = {
 	themeConfig: {
 		nav: [
 			{text: '主页', link: '/'},
-			{text: '目录', link: '/posts/'},
 			{
 				text: '关于',
 				link: '/about/'
