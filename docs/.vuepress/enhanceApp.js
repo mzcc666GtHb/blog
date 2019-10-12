@@ -5,6 +5,7 @@ import Vue from 'vue'
 // import 'element-ui/lib/theme-chalk/index.css'
 
 function integrateGitalk(router) {
+	let pathname = ''
 	const linkGitalk = document.createElement('link');
 	linkGitalk.href = 'https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css';
 	linkGitalk.rel = 'stylesheet';
@@ -14,13 +15,14 @@ function integrateGitalk(router) {
 	document.body.appendChild(scriptGitalk);
 
 	router.afterEach((to) => {
-		if (scriptGitalk.onload) {
+		if (scriptGitalk.onload && pathname !== to.path) {
 			loadGitalk(to);
 		} else {
 			scriptGitalk.onload = () => {
 				loadGitalk(to);
 			}
 		}
+		pathname = to.path;
 	});
 
 	function loadGitalk(to) {
