@@ -3,7 +3,7 @@ home: true
 lang: zh-CN
 heroText: web日志
 heroImage: /timg.jpg
-actionText: 目录 →
+actionText: Get Started →
 actionLink: /posts/
 features:
 - title: HTML
