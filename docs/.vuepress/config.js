@@ -36,10 +36,6 @@ module.exports = {
 		nav: [
 			{text: '主页', link: '/'},
 			{
-				text: '关于',
-				link: '/about/'
-			},
-			{
 				text: '其他',
 				items: [
 					{
