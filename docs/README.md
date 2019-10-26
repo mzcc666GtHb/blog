@@ -1,7 +1,7 @@
 ---
 home: true
 lang: zh-CN
-heroText: web日志
+heroText: 伏尔加河上的纤夫
 heroImage: /Volga_Boatmen_(1870-1873).jpg
 actionText: Get Started →
 actionLink: /posts/
