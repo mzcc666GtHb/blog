@@ -2,7 +2,7 @@
 home: true
 lang: zh-CN
 heroText: web日志
-heroImage: /timg.jpg
+heroImage: /sun.jpeg
 actionText: Get Started →
 actionLink: /posts/
 features:
