@@ -5,7 +5,6 @@ module.exports = {
 	description: '欢迎来到这里',
 	head: [
 		['link', {rel: 'icon', href: '/favicon.ico'}],
-		['link', {rel: 'stylesheet"', href: '/style.css'}],
 		['link', {rel: 'mainfest', href: '/mainfest.json'}],
 	],
 	port: 4000,
