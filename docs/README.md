@@ -2,7 +2,7 @@
 home: true
 lang: zh-CN
 heroText: web日志
-heroImage: /sun.jpeg
+heroImage: /Volga_Boatmen_(1870-1873).jpg
 actionText: Get Started →
 actionLink: /posts/
 features:
