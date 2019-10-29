@@ -1,6 +1,6 @@
 console.log(__dirname, 'dirname');
 module.exports = {
-	title: 'web日志',
+	title: 'web笔记',
 	keywords: 'web日志',
 	description: '欢迎来到这里',
 	head: [
@@ -116,12 +116,8 @@ module.exports = {
 			},
 			{
 				title: '关于',   // 必要的
-				// path: '/about/',      // 可选的, 应该是一个绝对路径
-				collapsable: true, // 可选的, 默认值是 true,
-				sidebarDepth: 2,    // 可选的, 默认值是 1
-				children: [
-					'/about/'
-				]
+				path: '/pages/about/',      // 可选的, 应该是一个绝对路径
+				collapsable: false, // 可选的, 默认值是 true,
 			},
 		],
 		// sidebarDepth: 3,
