@@ -1,8 +1,8 @@
 ---
 home: true
 lang: zh-CN
-heroText: 伏尔加河上的纤夫
-heroImage: /Volga_Boatmen_(1870-1873).jpg
+heroText: random image
+heroImage: http://lorempixel.com/700/280/
 actionText: Get Started →
 actionLink: /posts/
 features:
