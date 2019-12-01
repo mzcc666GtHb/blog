@@ -66,54 +66,54 @@ module.exports = {
 				title: '目录',
 				collapsable: false,
 			},
-			{
-				title: '源码系列',   // 必要的
-				// path: '/about/',      // 可选的, 应该是一个绝对路径
-				collapsable: true, // 可选的, 默认值是 true,
-				sidebarDepth: 2,    // 可选的, 默认值是 1
-				children: [
-					'/lodash/',
-					'/underscore/',
-					'/jQuery/',
-				]
-			},
-			{
-				title: '面试系列',   // 必要的
-				// path: '/about/',      // 可选的, 应该是一个绝对路径
-				collapsable: true, // 可选的, 默认值是 true,
-				sidebarDepth: 2,    // 可选的, 默认值是 1
-				children: [
-					'/js-extend/',
-					'/js-this/',
-					'/js-implement-call-apply/',
-					'/js-implement-bind/',
-					'/js-implement-new/',
-				]
-			},
-			{
-				title: '历史文章',   // 必要的
-				// path: '/about/',      // 可选的, 应该是一个绝对路径
-				collapsable: true, // 可选的, 默认值是 true,
-				sidebarDepth: 2,    // 可选的, 默认值是 1
-				children: [
-					'/puppeteer-create-pdf-and-merge/',
-					'/vue-cli-2-webpack/',
-					'/oh-my-zsh/',
-					'/20180421-youzan-front-end-tech-open-day/',
-					'/vue-2-qrcode/',
-					'/js-object-api/',
-					'/js-book/',
-				]
-			},
-			{
-				title: '工具系列',   // 必要的
-				// path: '/about/',      // 可选的, 应该是一个绝对路径
-				collapsable: true, // 可选的, 默认值是 true,
-				sidebarDepth: 2,    // 可选的, 默认值是 1
-				children: [
-					'/webpack/'
-				]
-			},
+			// {
+			// 	title: '源码系列',   // 必要的
+			// 	// path: '/about/',      // 可选的, 应该是一个绝对路径
+			// 	collapsable: true, // 可选的, 默认值是 true,
+			// 	sidebarDepth: 2,    // 可选的, 默认值是 1
+			// 	children: [
+			// 		'/lodash/',
+			// 		'/underscore/',
+			// 		'/jQuery/',
+			// 	]
+			// },
+			// {
+			// 	title: '面试系列',   // 必要的
+			// 	// path: '/about/',      // 可选的, 应该是一个绝对路径
+			// 	collapsable: true, // 可选的, 默认值是 true,
+			// 	sidebarDepth: 2,    // 可选的, 默认值是 1
+			// 	children: [
+			// 		'/js-extend/',
+			// 		'/js-this/',
+			// 		'/js-implement-call-apply/',
+			// 		'/js-implement-bind/',
+			// 		'/js-implement-new/',
+			// 	]
+			// },
+			// {
+			// 	title: '历史文章',   // 必要的
+			// 	// path: '/about/',      // 可选的, 应该是一个绝对路径
+			// 	collapsable: true, // 可选的, 默认值是 true,
+			// 	sidebarDepth: 2,    // 可选的, 默认值是 1
+			// 	children: [
+			// 		'/puppeteer-create-pdf-and-merge/',
+			// 		'/vue-cli-2-webpack/',
+			// 		'/oh-my-zsh/',
+			// 		'/20180421-youzan-front-end-tech-open-day/',
+			// 		'/vue-2-qrcode/',
+			// 		'/js-object-api/',
+			// 		'/js-book/',
+			// 	]
+			// },
+			// {
+			// 	title: '工具系列',   // 必要的
+			// 	// path: '/about/',      // 可选的, 应该是一个绝对路径
+			// 	collapsable: true, // 可选的, 默认值是 true,
+			// 	sidebarDepth: 2,    // 可选的, 默认值是 1
+			// 	children: [
+			// 		'/webpack/'
+			// 	]
+			// },
 			{
 				title: '关于',   // 必要的
 				path: '/pages/about/',      // 可选的, 应该是一个绝对路径

@@ -2,9 +2,9 @@
 home: true
 lang: zh-CN
 heroText: random image
-heroImage: http://lorempixel.com/700/280/
+heroImage: https://picsum.photos/800/280
 actionText: Get Started →
-actionLink: /posts/
+actionLink: //
 features:
 - title: 基础概念
   details: HTML | CSS | Javascript
