@@ -1,6 +1,6 @@
 // .vuepress/enhanceApp.js
 // 全局注册 Element 组件库
-import Vue from 'vue'
+//import Vue from 'vue'
 // import Element from 'element-ui'
 // import 'element-ui/lib/theme-chalk/index.css'
 
@@ -15,6 +15,7 @@ function integrateGitalk(router) {
 	document.body.appendChild(scriptGitalk);
 
 	router.afterEach((to) => {
+		console.log(to);
 		if (scriptGitalk.onload && pathname !== to.path) {
 			loadGitalk(to);
 		} else {
